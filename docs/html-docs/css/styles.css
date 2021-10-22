@@ -1,0 +1,74 @@
+:root {
+  --another-text: #757575;
+  --hover-focus-color: #2196f3;
+}
+
+.text {
+  color: #212121;
+  font-family: "Roboto", "Verdana", "Geneva", "Tahoma", sans-serif;
+}
+
+.text-paragraph p,
+.text-paragraph a {
+  color: var(--another-text);
+}
+
+.logo {
+  font-family: Raleway;
+  size: 26px;
+  font-size: 26px;
+  line-height: 31px;
+}
+.logo .in-span {
+  color: var(--hover-focus-color);
+}
+.head-nav a {
+  size: 14px;
+  font-weight: 500;
+  line-height: 16, 41px;
+  cursor: pointer;
+}
+
+.head-nav a:hover,
+.head-nav a:focus {
+  color: var(--hover-focus-color);
+}
+button {
+  background-color: #f5f4fa;
+  border-width: 0;
+  font-size: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+button:hover,
+button:focus {
+  background-color: var(--hover-focus-color);
+  color: #ffffff;
+}
+
+.addr {
+  color: #ffffff;
+}
+.addr a {
+  color: rgb(255, 255, 255, 0.6);
+}
+
+.sect-back-colr {
+  background-color: #2f303a;
+}
+
+.sect-back-colr .logo {
+  color: #ffffff;
+}
+h1 {
+  color: #ffffff;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  color: #212121;
+  text-decoration: none;
+}
