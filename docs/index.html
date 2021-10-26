@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/styles.css" />
     <title>Main</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body class="text">
@@ -16,12 +22,12 @@
         >
         <ul class="head-nav">
           <li>
-            <a href="./index.html">Студия</a>
+            <a href="./index.html" class="active-page">Студия</a>
           </li>
           <li><a href="./portfolio.html">Портфолио</a></li>
           <li><a href="">Контакты</a></li>
         </ul>
-        <ul class="head-nav text-paragraph">
+        <ul class="head-nav text-paragraph-connect">
           <li>
             <a href="mailto:info@devstudio.com">info@devstudio.com</a>
           </li>
@@ -33,13 +39,15 @@
     </header>
 
     <main>
-      <section class="sect-back-colr">
-        <h1>Эффективные решения для вашего бизнеса</h1>
-        <button type="button">Заказать услугу</button>
+      <section class="back-color-dark upper-text hero-size">
+        <h1 class="position-text">Эффективные решения для вашего бизнеса</h1>
+        <button type="button" class="active-button position-button">
+          Заказать услугу
+        </button>
       </section>
 
-      <section>
-        <h2>Наши преимущества</h2>
+      <section class="upper-text">
+        <h2 class="visually-hidden">Наши преимущества</h2>
         <ul class="text-paragraph">
           <li>
             <h3>Внимание к деталям</h3>
@@ -94,7 +102,7 @@
           </li>
         </ul>
       </section>
-      <section>
+      <section class="back-color-light size-h3">
         <h2>Наша команда</h2>
         <ul class="text-paragraph">
           <li>
@@ -121,14 +129,14 @@
       </section>
     </main>
 
-    <footer class="sect-back-colr">
+    <footer class="back-color-dark">
       <a href="./index.html" class="logo">
         <span class="in-span">Web</span>Studio</a
       >
       <address class="addr">
         г. Киев, пр-т Леси Украинки, 26<br />
 
-        <a href="mailto:info@devstudio.com">info@example.com</a>
+        <a href="mailto:info@devstudio.com">info@example.com</a> <br />
         <a href="tel:+380961111111">+38 099 111 11 11</a>
       </address>
     </footer>
